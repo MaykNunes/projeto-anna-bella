@@ -1,0 +1,52 @@
+#menu ul {
+	display: flex;
+	padding: 2rem;
+	margin: 0;
+	list-style: none;
+	background-color: grey;
+}
+#menu ul li {
+	margin-right: 1rem;
+}
+#menu ul li::after {
+	content: "|";
+	margin-left: 0.9rem;
+}
+#menu ul li:last-child::after {
+	display: none;
+}
+#menu ul li a {
+	color: blue;
+}
+.sobre h1 {
+	color: gray;
+}
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+.campanha {
+	color: grey;
+}
+.image img {
+	border: 10px solid gray;
+}
+.image2 img {
+	border: 10px solid gray;
+}
+.image3 img {
+	border: 10px solid grey;
+}
+.copyright2 {
+	display: flex;
+	justify-content: center;
+}
+.contato {
+	color: grey;
+}
+.image4 img {
+	border: 10px solid grey;
+}
+.email p {
+	margin: 0px;
+}
